@@ -1,0 +1,43 @@
+convert angular aplication to electron desktop app 
+
+
+-- 		npm install @capacitor/core@1.5.3
+--		npm install @capacitor/cli@1.5.3
+--		npx cap init
+--		Add "www" on angular.json file "outputPath"
+--		ng build --configuration production --aot
+--		npx cap add electron 
+--		npx cap add 
+--		npx cap open electron
+
+			index.html
+
+			<base href="./">
+			And
+
+			tsconfig.json
+
+			from es2015 to es5
+
+			"target": "es5"
+
+--		index.js comment line " // const isDevMode = require('electron-is-dev'); "
+--		index.js comment line " if (isDevMode){} "
+--		cd electron     npm install electron-packager -g
+--		electron-packager . --platform=win32 --arch=x64 Desktop-app
+
+--		generate .exe "install wix toolset"
+--		include enviorement variables path
+
+
+--		npm install electron-wix-msi --save-dev
+
+--
+
+
+
+
+-- TO RUN PROJECT --
+-- npm install 
+-- npm i @capacitor/electron
+-- npx cap open electron

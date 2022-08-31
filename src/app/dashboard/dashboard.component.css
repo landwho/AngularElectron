@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.center{ text-align: center;}
+
+#card1:hover{
+    background: rebeccapurple;
+    color: white;
+    cursor: pointer;
+}
+
+#card2:hover{
+    background: rgb(123, 197, 232);
+    color: white;
+    cursor: pointer;
+}

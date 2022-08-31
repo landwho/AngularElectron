@@ -1,0 +1,25 @@
+<h3 class="center">This is an Aplication using Angular with Electron Desktop App</h3>
+
+<div class="container flex">
+ 
+   <div class="card">
+      <h3>Register your Information</h3>
+      <br>
+      <div class="mb-3">
+        <input type="text" class="form-control" [(ngModel)]="name" placeholder="Nombre">
+      </div>
+      <div class="mb-3">
+        <input type="text" class="form-control" [(ngModel)]="lastName" placeholder="Apellido">
+      </div>
+      <div class="mb-3">
+        <input type="text" class="form-control" [(ngModel)]="ID" placeholder="Identificacion">
+      </div>
+      <div class="mb-3">
+        <input type="text" class="form-control" [(ngModel)]="age" placeholder="Edad">
+      </div>
+      <div class="row">
+        <div class="col-md-6"> <div class="btn btn-info" [routerLink]="['/dashboard']">Back</div></div>
+        <div class="col-md-6"> <div class="btn btn-success f-r" (click)="confirm()">Confirm</div></div>
+      </div>
+   </div>
+</div>

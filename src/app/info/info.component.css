@@ -1,0 +1,7 @@
+.flex{
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.center{ text-align: center;}
